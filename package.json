@@ -1,0 +1,57 @@
+{
+  "name": "@limnal-ash/dsh-skill-manager",
+  "version": "1.0.0",
+  "description": "DSH 技能管理：统一管理本机各软件技能库，按本机技能自动分类，英文简介自动翻译，支持仓库地址识别安装与输入框内按分类选择技能。",
+  "license": "MIT",
+  "author": "Limnal-Ash",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=22.5",
+    "dsh": ">=0.2.1-rc.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "deepseek",
+    "harness",
+    "dsh",
+    "dsh-plugin",
+    "skills",
+    "skill-manager",
+    "plugin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Limnal-Ash/dsh-skill-manager.git"
+  },
+  "homepage": "https://github.com/Limnal-Ash/dsh-skill-manager#readme",
+  "bugs": {
+    "url": "https://github.com/Limnal-Ash/dsh-skill-manager/issues"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  }
+}

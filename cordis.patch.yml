@@ -1,0 +1,11 @@
+# dsh-skill-manager bundle patch
+#
+# Host 侧：注册 /skill-manager/api 前缀路由（扫描技能库、翻译、分类、复制/回收站、
+# 仓库识别与安装、设置），并读取 Host skills 服务以识别内置技能。
+# Client 侧：注册左侧工具栏入口「技能管理」、中央工作台面板，以及对话框内的技能选择器。
+#
+# 必须落在 Host 组合层（本 insert），不能放进 agent preset。
+
+- insert:
+    - id: skill-manager
+      name: '@limnal-ash/dsh-skill-manager'
