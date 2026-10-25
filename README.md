@@ -1,6 +1,6 @@
 # 技能管理 · dsh-skill-manager
 
-[![npm](https://img.shields.io/npm/v/@limnal-ash/dsh-skill-manager)](https://www.npmjs.com/package/@limnal-ash/dsh-skill-manager)
+[![npm](https://img.shields.io/npm/v/@limnalash/dsh-skill-manager)](https://www.npmjs.com/package/@limnalash/dsh-skill-manager)
 
 DeepSeek Harness 插件：把本机各软件已经安装的 Agent Skills 统一管理起来。
 
@@ -18,7 +18,7 @@ DeepSeek Harness 插件：把本机各软件已经安装的 Agent Skills 统一�
 ## 安装
 
 ```sh
-dsh plugin --profile <profile> add @limnal-ash/dsh-skill-manager
+dsh plugin --profile <profile> add @limnalash/dsh-skill-manager
 ```
 
 或在 DSH Desktop 的「插件」页从插件市场安装。

@@ -12,7 +12,7 @@
  * 接口契约见 README.md；颜色只用 --dsw-alias-* / --dsw-specific-* token。
  */
 window.__ModuleLoader__.load({
-  id: '@limnal-ash/dsh-skill-manager',
+  id: '@limnalash/dsh-skill-manager',
   factory: function (require) {
     'use strict';
 

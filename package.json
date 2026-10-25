@@ -1,5 +1,5 @@
 {
-  "name": "@limnal-ash/dsh-skill-manager",
+  "name": "@limnalash/dsh-skill-manager",
   "version": "1.0.0",
   "description": "DSH 技能管理：统一管理本机各软件技能库，按本机技能自动分类，英文简介自动翻译，支持仓库地址识别安装与输入框内按分类选择技能。",
   "license": "MIT",
